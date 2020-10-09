@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Derek's Furniture</title>
+<link href="style.css" rel="stylesheet">
+</head>
+	<div id="top">
+            <header>
+                <img src="images/chair.png" width="140px" height="140px" class="header" />
+                <h1 class="header1">Derek's Refurbished Furniture</h1>
+            </header>
+            <nav class="underHeader">
+                <ul>
+					<a href="index.html">
+                        <li class="btn">Home</li>
+                    </a>
+                    <a href="shop.html">
+                        <li class="btn">Shop</li>
+                    </a>
+                    <a href="about.html">
+                        <li class="btn">About</li>
+                    </a>
+                    <a href="contact.html">
+                        <li class="btn">Contact</li>
+                    </a>
+                </ul>
+                <h2>Order</h2>
+            </nav>
+        </div>
+		<main>
+            <p class="secTitle">Order Page</p>
+            <br /><br />
+            <form>
+				<div>
+				<label class="inputtext" for="">First Name:</label><br /><br>
+				<input type="text" placeholder="Enter Your First Name" id=""><br><br><br>
+				
+				<label class="inputtext" for="">Last Name:</label><br><br>
+				<input type="text" placeholder="Enter Your Last Name" id=""><br><br><br>
+				
+				<label class="inputtext" for="">Email Address:</label><br><br>
+				<input type="text" placeholder="Enter Your E-mail Address" id=""><br><br><br>
+				
+				<label class="inputtext" for="">Country:</label><br><br>
+				<select id="country" name="country">
+    				<option>United States</option>
+    				<option>Canada</option>
+    				<option>Australia</option>
+    				<option>United Kingdom</option>
+  				</select><br><br><br>
+				
+				<label class="inputtext" for="">State (Abbr.):</label><br><br>
+				<input type="text" placeholder="Enter Your State/Region" id=""><br><br><br>
+				
+				<label class="inputtext" for="">Home Address:</label><br><br>
+				<input type="text" placeholder="Enter Your Current Address" id=""><br><br><br>
+				
+				<label class="inputtext">Card Information:</label><br><br>
+				<input type="text"  placeholder="XXXX-XXXX-XXXX-XXXX"><br><br><br>
+				</div>
+				
+				<button type="submit" id="orderbutton" onclick="alert('Your order has been made! Thank you for shopping with us!')">Order</button>
+			</form>
+        </main>
+<body>
+</body>
+</html>
